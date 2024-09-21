@@ -30,7 +30,7 @@ function love.load()
     math.randomseed(os.time())
     math.random()
     math.random()
-    Burger_Spawner = math.random(2, 3)
+    Burger_Spawner = math.random(3, 4)
     Sushi_Spawner = math.random(4, 6)
     Cake_Spawner = math.random(12, 20)
 
