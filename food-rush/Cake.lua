@@ -32,7 +32,7 @@ function Cake:spawn(dt)
 
     if Cake_Timer > Cake_Spawner then
         Cake_Spawnable = true
-        Cake_Spawner = math.random(15, 22)
+        Cake_Spawner = math.random(12, 20)
     else
         Cake_Spawnable = false
     end

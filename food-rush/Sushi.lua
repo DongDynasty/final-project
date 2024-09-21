@@ -32,7 +32,7 @@ function Sushi:spawn(dt)
 
     if Sushi_Timer > Sushi_Spawner then
         Sushi_Spawnable = true
-        Sushi_Spawner = math.random(9, 13)
+        Sushi_Spawner = math.random(4, 6)
     else
         Sushi_Spawnable = false
     end

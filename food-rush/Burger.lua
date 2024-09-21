@@ -32,7 +32,7 @@ function Burger:spawn(dt)
 
     if Burger_Timer > Burger_Spawner then
         Burger_Spawnable = true
-        Burger_Spawner = math.random(3, 7)
+        Burger_Spawner = math.random(2, 3)
     else
         Burger_Spawnable = false
     end

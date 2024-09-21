@@ -30,9 +30,9 @@ function love.load()
     math.randomseed(os.time())
     math.random()
     math.random()
-    Burger_Spawner = math.random(3, 7)
-    Sushi_Spawner = math.random(9, 13)
-    Cake_Spawner = math.random(15, 22)
+    Burger_Spawner = math.random(2, 3)
+    Sushi_Spawner = math.random(4, 6)
+    Cake_Spawner = math.random(12, 20)
 
     love.window.setTitle('Food Rush!')
 
